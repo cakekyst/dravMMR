@@ -6,6 +6,8 @@ dravMMR is a basic MMR retrieval program for the Rocket Soccar Confederation (RS
 
 An input csv file should be placed in the inputcsv directory (file name does not matter). Expected file format: "RSCID, Name, TrackerLink". The MMR data will be outputed to the outputcsv directory.
 
+For best performance, run init.py in a command shell.
+
 # Requirements
 
 Python 3+?
