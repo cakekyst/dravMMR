@@ -14,6 +14,8 @@ Python 3+?
 
 aiohttp 3.6.2+
 
+> pip install aiohttp
+
 # CONTRIBUTORS
 
 * [aidant19](https://github.com/aidant19)
