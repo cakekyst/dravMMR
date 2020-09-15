@@ -11,6 +11,7 @@ For best performance, run init.py in a command shell.
 # Requirements
 
 Python 3+?
+
 aiohttp 3.6.2+
 
 # CONTRIBUTORS
