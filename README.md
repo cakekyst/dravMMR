@@ -12,6 +12,8 @@ For best performance, run init.py in a command shell.
 
 Python 3+?
 
+> https://www.python.org/downloads/
+
 aiohttp 3.6.2+
 
 > pip install aiohttp
