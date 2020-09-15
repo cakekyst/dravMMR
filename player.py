@@ -4,16 +4,23 @@ from math import ceil, floor, sqrt
 
 
 class Player:
-    def __init__(self, name, links, playlists):
+    def __init__(self, rscID, name, playlists, seasons, links):
+        self.rscID = rscID
         self.name = name
         self.links = links
-        self.playlists = playlists
         self.mmrs = {}
-        for playlist in playlists:
-            self.mmrs[playlist] = deque()
-        self.dataError = False
+        self.playlists = playlists
+        self.seasons = seasons
+        for link in links:
+            if link != '':
+                linkDict = {}
+                for season in seasons:
+                    seasonDict = {}
+                    linkDict[season] = seasonDict
+                self.mmrs[link] = linkDict
 
-class Mmr:
+
+class MMR:
     def __init__(self, mmr, date='', games=-1):
         self.mmr = mmr
         self.date = date
