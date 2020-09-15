@@ -10,7 +10,7 @@ For best performance, run init.py in a command shell.
 
 # Requirements
 
-Python 3+?
+Python 3.5.3+
 
 > https://www.python.org/downloads/
 
